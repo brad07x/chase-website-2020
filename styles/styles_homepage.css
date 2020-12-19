@@ -1,0 +1,391 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-size: cover;
+	background-color:rgba(255,233,216,0.85);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.icon-wrapper {
+	float: right;
+	position: absolute;
+	right: 0%;
+	z-index: 9999;
+	border-radius: 10px;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: darkslategray;
+  font-family: 'PT Sans', sans-serif;
+  z-index: 9998;
+  width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a blue background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:darkorange;
+	transition: 0.5s;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:darkslategrey ;
+  width: 10%;
+  left: 10;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 9996;
+}
+
+/* Mega Menu header, if needed */
+.dropdown-content .header {
+  background: darkslategrey;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 2px;
+  color: aliceblue;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+	transition-duration: 1.5s;
+}
+
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: aliceblue;
+  font-family: 'PT Sans', sans-serif;
+  padding: 6px;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: darkorange;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*do circular crop of image in photoshop and edit image to include est. 2018 green mountain, nc*/
+
+.icon-wrapper {
+	float: right;
+	position:absolute;
+	right:0%;
+	z-index: 9999;
+	
+}
+
+.header p{
+	padding-top: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 50px;
+	font-family: montserrat;
+	color: black;
+	font-size: 32px;
+}
+
+.header h2{
+	padding-top: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 50px;
+	font-family: montserrat;
+	color: black;
+	font-size: 32px;
+}
+
+.intro-container{
+	padding: 0px;
+}
+
+.homepage1 {
+	float: left;
+	margin: 0px;
+	padding: 0px;	
+	border-radius: 10px;
+	background-size: cover;
+	background-position: center;
+}
+
+.homepage2 {
+	float: right;
+	margin: 0px;
+	padding: 0px;	
+	border-radius: 10px;
+	background-size: cover;
+	background-position: center;
+}
+
+.intro-text-wrapper1{
+	position: relative;
+	padding: 20px;
+	font-family: sans-serif;
+	color: aliceblue;
+	line-height: 1.5;
+	font-size: 18px;
+	background: url("../images/IMG_20181110_155655.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.intro-layer {
+	background-color: rgba(0,0,0,0.50);
+}
+
+.intro-text-wrapper2{
+	position: relative;
+	padding-bottom: 20px;
+	font-family: sans-serif;
+	color: aliceblue;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.intro-text-wrapper3{
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: sans-serif;
+	color: aliceblue;
+	font-size: 18px;
+}
+
+.intro-text-wrapper4 {
+	position: relative;
+	padding-bottom: 50px;
+	font-family: montserrat;
+	font-size: 32px;
+	color: aliceblue;
+}
+
+.intro-text-wrapper5 {
+	position: relative;
+	padding-bottom: 20px;
+	font-family: sans-serif;
+	color: aliceblue;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.intro-text-wrapper6 {
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: sans-serif;
+	color: aliceblue;
+	font-size: 18px;
+}
+
+.video-wrapper {
+position: relative;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%,0%);
+	text-align: center;
+	background-image: url("../slideshow/IMG_5492.jpg");
+	background-size: 100%;
+}
+
+.vidlayer {
+	background-color:rgba(0,0,0,0.70);
+}
+
+.desc {
+	position: relative;
+	padding: 10px;
+	font-family: montserrat;
+	font-size: 28px;
+	color: aliceblue;
+}
+
+.video1 {
+	margin: 10px;
+	border-radius: 10px;
+	padding: 0px;
+}
+
+.col {
+  float: left;
+  width: 33%;
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: aliceblue;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.col a {
+	color: inherit;
+}
+
+.gal-col {
+  float: left;
+  width: 50%;
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: aliceblue;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+
+/* Clear floats after the columns */
+.footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+	background-color: darkslategrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gal-columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gal-columns {
+	background: url("../slideshow/IMG_4729.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gal-layer {
+	background-color: rgba(0,0,0,0.70);
+}
+
+
+/* Photo Gallery */
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
